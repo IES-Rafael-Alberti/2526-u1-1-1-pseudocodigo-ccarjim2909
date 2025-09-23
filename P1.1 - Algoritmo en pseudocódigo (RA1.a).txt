@@ -108,5 +108,25 @@ inicio
 	precio_sin_iva = precio_final - precio_iva
 
 	escribir "El precio del producto sin iva es ", precio_sin_iva , "€ y el iva que pagaste fue ", iva_pagado
-
 fin
+
+
+9.-
+
+inicio
+	escribir "introduce el primer numero que quieras sumar:"
+	escribir "introduce el segundo numero que quieras sumar:"
+	escribir "introduce el tercer numero que quieras sumar:"
+
+	lee num1
+	lee num2
+	lee num3
+
+	suma_total = num1 + num2 + num3
+
+	escribir "La suma total de estos tres numeros es ", suma_total
+fin
+
+
+10.-
+
