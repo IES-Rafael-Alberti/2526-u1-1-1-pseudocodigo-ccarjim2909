@@ -71,3 +71,31 @@ fin
 
 6.-
 
+inicio
+	escribir "introduce los grados en Celsius:"
+	leer x
+
+	resultado = (x * 1.8) + 32
+
+	escribir x, "º grados Celsius son ", resultado, "º grados fahrenheit."
+fin
+
+
+7.-
+
+inicio
+	escribir "introduce el precio sin iva:"
+	escribir "introduce el porcentaje de iva:"
+	
+	lee precio_sin_iva
+	lee iva
+	
+	precio_iva = precio_sin_iva * iva / 100
+	precio_final = precio_sin_iva + precio_iva
+
+	escribir precio_final, " € te ha costado al final sumandole el iva" 
+fin
+
+
+8.-
+
