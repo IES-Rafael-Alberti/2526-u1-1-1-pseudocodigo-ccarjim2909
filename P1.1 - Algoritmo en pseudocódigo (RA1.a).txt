@@ -99,3 +99,14 @@ fin
 
 8.-
 
+inicio
+	escribir "introduce el precio final:"
+
+	lee precio_final
+
+	iva_pagado = precio_final * 0.10
+	precio_sin_iva = precio_final - precio_iva
+
+	escribir "El precio del producto sin iva es ", precio_sin_iva , "€ y el iva que pagaste fue ", iva_pagado
+
+fin
