@@ -212,3 +212,20 @@ inicio
 
 	escribir "El peso total en gramos seria de ", total
 fin
+
+
+17.-
+
+inicio
+	escribir "introduce el capital inicial:"
+
+	lee capital 
+
+	interes = 0.04
+
+	año1 = capital * 
+	año2 = capital * 
+	año3 = capital * 
+
+	escribir " 
+fin
