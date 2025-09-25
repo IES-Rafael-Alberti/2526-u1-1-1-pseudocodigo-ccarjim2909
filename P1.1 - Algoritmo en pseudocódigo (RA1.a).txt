@@ -249,10 +249,20 @@ inicio
 	escribir "El precio habitual de las barras es ", habitual, "€, 
 		con el descuento aplicado del 60% seria ", 
 		descuento, "y el coste final seria de ", final
-
 fin
 
 
 
 19.-
+
+inicio
+	escribir "introduce tu nombre:"
+	escribir "introduce el numero de veces que quieres que se repita:"
+
+	lee nombre
+	lee n
+
+	para i en (1 hasta n) hacer
+            escribir nombre
+fin
 
