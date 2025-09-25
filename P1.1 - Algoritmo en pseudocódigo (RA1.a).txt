@@ -223,11 +223,36 @@ inicio
 
 	interes = 0.04
 
-	año1 = capital * (interes * 1)
-	año2 = capital * (interes * 2)
-	año3 = capital * (interes * 3)
+	año1 = capital * (1 + interes)
+	año2 = capital * (1 + interes)^2
+	año3 = capital * (1 + interes)^3
 
-	escribir " 
+	escribir "El saldo dentro de un año seria ", año1
+	escribir "El saldo dentro de dos años seria ", año2
+	escribir "El saldo dentro de tres años seria ", año3
 fin
 
+
+18.-
+
+inicio
+	escribir "introduce el numero de barras frescas:"
+	
+	lee barras
+
+	habitual = 3.49
+
+	descuento = habitual * 60 / 100
+
+	final = habitual - descuento
+
+	escribir "El precio habitual de las barras es ", habitual, "€, 
+		con el descuento aplicado del 60% seria ", 
+		descuento, "y el coste final seria de ", final
+
+fin
+
+
+
+19.-
 
