@@ -199,6 +199,16 @@ fin
 16.-
 
 inicio
-	
+	escribir "introduce el numero de payasos:"
+	escribir "introduce el numero de muñecas:"
 
+	lee payasos
+	lee muñecas
+
+	gramos_payasos = payasos * 112
+	gramos_muñecas = muñecas * 75
+
+	total = gramos_payasos + gramos_muñecas
+
+	escribir "El peso total en gramos seria de ", total
 fin
