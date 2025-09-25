@@ -181,6 +181,24 @@ fin
 15.-
 
 inicio
+	escribir "introduce el primer numero entero:"
+	escribir "introduce el segundo numero entero:"
+
+	lee n
+	lee m
+
+	cociente = n / m
+	resto = n % m
+
+	escribir "el cociente de estos dos numero es ", cociente
+	escribir "el resto de estos dos numero es ", resto
+fin
+
+
+
+16.-
+
+inicio
 	
 
 fin
