@@ -280,3 +280,20 @@ inicio
 	escribir "tu nombre en mayusculas es ", mayuscualas(nombre)
 	escribir "tu nombre con la mayuscula inicial es ", mayus1(nombre)
 fin
+
+
+
+21.-
+
+inicio
+	escribir "introduce tu nombre:"
+
+	lee nombre
+
+	(doy por hecho que hay una funcion para contar las letras length)
+
+	nombre_mayu = mayuscula(nombre)
+	numero_letras = len(nombre)
+
+	escribir "Tu nombre en mayusculas seria ", nombre_mayu, " y contiene ", numero_letras, " letras."
+fin
