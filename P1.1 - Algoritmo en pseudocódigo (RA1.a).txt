@@ -223,9 +223,11 @@ inicio
 
 	interes = 0.04
 
-	año1 = capital * 
-	año2 = capital * 
-	año3 = capital * 
+	año1 = capital * (interes * 1)
+	año2 = capital * (interes * 2)
+	año3 = capital * (interes * 3)
 
 	escribir " 
 fin
+
+
