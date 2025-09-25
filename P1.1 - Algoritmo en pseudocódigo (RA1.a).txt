@@ -266,3 +266,17 @@ inicio
             escribir nombre
 fin
 
+
+20.-
+
+inicio
+	escribir "introduce tu nombre completo:"
+
+	lee nombre
+
+	(doy por hecho que hay funciones que hacen esto automaticamente)
+
+	escribir "tu nombre en minusculas es ", minusculas(nombre)
+	escribir "tu nombre en mayusculas es ", mayuscualas(nombre)
+	escribir "tu nombre con la mayuscula inicial es ", mayus1(nombre)
+fin
