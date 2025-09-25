@@ -130,3 +130,57 @@ fin
 
 10.-
 
+
+
+11.-
+
+inicio
+	
+
+
+fin
+
+
+12.-
+
+inicio
+	
+
+
+fin
+
+
+13.-
+
+inicio
+	escribir "introduce un numero entero positivo:"
+
+	lee n
+
+	suma_total = n (n+1) / 2
+
+	escribir "La suma de 1 hasta ", n, " es " suma_total
+fin
+
+
+14.-
+
+inicio
+	escribir "introduce tu peso:"
+	escribir "introduce tu altura:"
+
+	lee peso
+	lee altura
+
+	imc = peso * (altura * altura)
+
+	escribir "Tu indice de masa corporal es ", imc
+fin
+
+
+15.-
+
+inicio
+	
+
+fin
